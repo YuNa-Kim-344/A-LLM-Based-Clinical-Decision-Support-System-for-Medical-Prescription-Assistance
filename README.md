@@ -16,6 +16,8 @@
 - 효율화: FA-LoRA로 파라미터 수 약 93.5% 감소 + FlashAttention 적용
 - 학습 환경: RTX 6000 Ada 48GB, LR=1e-3, Batch Size=4, LoRA Rank=16/32
 
+<img width="136" height="218" alt="image" src="https://github.com/user-attachments/assets/3f0cbe45-6b6e-4e19-b8c9-5fe13984cc3e" />
+
 
 ### 평가 방식
 모델 평가를 위해 Human Evaluation과 LLM Evaluation 두가지를 정확도와 적합성으로 병행하여 보다 객관적이고 효율적인 평가를 진행한다.
