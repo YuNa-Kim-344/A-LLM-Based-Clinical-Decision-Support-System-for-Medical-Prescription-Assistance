@@ -28,8 +28,6 @@ LLM Evaluation에 활용할 LLM으로는 Hugging Face 에서 제공하는 의료
 - 적합성 (LLM Evaluation) : GPT-4가 판단한 진단에 적절한 약물 비율
 
 ### 실험 
-RTX 6000 Ada 48GB를 사용하였으며, 모델은 학습률은 1e-3, 배치 크기는 4, FA-LoRA의 alpha는 16, rank값은 16,32, max_length는 2048로 학습 진행 하였으며, 옵티마이저는 기존 SGD를 활용하였다.
-
 
 |  rank  | steps | 출력률 | 정확도 | 적합성 |
 |:------:|:-----:|:------:|:------:|:------:|
