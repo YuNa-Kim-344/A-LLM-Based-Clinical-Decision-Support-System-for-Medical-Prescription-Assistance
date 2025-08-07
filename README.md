@@ -1,5 +1,9 @@
 # A-LLM-Based-Clinical-Decision-Support-System-for-Medical-Prescription-Assistance
 
+해당 연구는 2025 전자공학회 하계학술대회에서 포스터 발표되었으며, 자세한 내용은 첨부된 논문을 통해 확인하실 수 있습니다.
+
+---
+
 ### < Abstract >
 
   This study proposes an LLLM-based prescription support system that recommends appropriate drug lists based on patient diagnoses to assist clinicians amid the ongoing shortage of medical staff. By applying FA-LoRA, we reduced the number of trainable parameters by approximately 93.5% while maintaining performance, and enhanced efficiency through FlashAttention. Using Llama3.1-8B-Instruct in a single-node setup, we evaluated the model via human assessment and GPT-4, confirming its accuracy and appropriateness. Future work includes extending the system with federated learning and differential privacy to protect sensitive medical data.
